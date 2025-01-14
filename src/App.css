@@ -1,0 +1,35 @@
+.custom-datatable .p-datatable-tbody > tr {
+  height: 25px !important; 
+  padding: 0 !important; 
+  margin: 0 !important;
+}
+
+.custom-datatable .p-datatable-tbody > tr > td {
+  padding: 2px 5px !important; /* Reduce padding inside cells */
+  border: 1px solid #ccc !important; /* Add grid borders like Excel */
+}
+
+/* Compact header styles */
+.custom-datatable .p-datatable-thead > tr > th {
+  padding: 5px !important; /* Reduce header cell padding */
+  border: 1px solid #ccc !important;
+  background-color: #e8e8e8 !important; /* Light gray header background */
+}
+
+/* Remove wrapper spacing */
+.custom-datatable .p-datatable-wrapper {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Optional: Remove spacing in table container */
+.custom-datatable .p-datatable {
+  border-spacing: 0 !important; /* Remove spacing between cells */
+  border-collapse: collapse !important; /* Merge borders */
+}
+
+/* Optional: Remove extra spacing added by PrimeReact */
+.custom-datatable .p-datatable-tbody {
+  padding: 0 !important;
+  margin: 0 !important;
+}
